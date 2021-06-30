@@ -1,7 +1,10 @@
 {
-  "name": "soccerapptheme",
+  "name": "@soccerapp/theme",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,6 +13,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.3"
+  },
+  "peerDependencies": {
     "react": "16.13.1",
     "react-native": "0.63.3"
   },
