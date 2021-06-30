@@ -1,4 +1,4 @@
-export type ModelOfColorTheme = {
+type ModelOfColorTheme = {
   background: string;
   backgroundSecundary: string;
   backgroundModal: string;
@@ -14,13 +14,13 @@ export type ModelOfColorTheme = {
   success: string;
 }
 
-export type ModelOfFontFamilyTheme = {
+type ModelOfFontFamilyTheme = {
   regular: string;
   bold: string;
   light: string;
 }
 
-export type ModelOfFontSizeTheme = {
+type ModelOfFontSizeTheme = {
   smallest: number;
   small: number;
   base: number;
@@ -51,7 +51,7 @@ type ModelOfMetricsTheme = {
   avatarSize: number;
 }
 
-export type ModelOfTheme = {
+type ModelOfTheme = {
   metrics: ModelOfMetricsTheme,
   fontSize: ModelOfFontSizeTheme,
   colors: ModelOfColorTheme,
