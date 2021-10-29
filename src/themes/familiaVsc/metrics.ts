@@ -5,10 +5,10 @@ const { width, height } = Dimensions.get('window');
 
 export const metrics:ModelOfMetricsTheme = {
   smallest: 3,
-  small: 5,
-  base: 10,
-  large: 20,
-  largest: 40,
+  small: 4,
+  base: 8,
+  large: 16,
+  largest: 32,
   inputHeight: '30%',
   inputWidth: '40%',
   buttonHeight: 40,
