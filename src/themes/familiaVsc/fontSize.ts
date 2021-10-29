@@ -2,12 +2,12 @@ import { ModelOfFontSizeTheme } from "@src/model";
 
 
 export const fontSize:ModelOfFontSizeTheme = {
-  smallest: 12,
-  small: 14,
-  base: 18,
-  large: 22,
-  largest: 30,
-  extraLagest: 40,
+  smallest: 8,
+  small: 10,
+  base: 14,
+  large: 18,
+  largest: 26,
+  extraLagest: 36,
 }
 
 
