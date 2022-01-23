@@ -3,7 +3,8 @@ import { ModelOfColorTheme } from "@src/model"
 const baseColors = {
   highlight: '#D52817',
   white: '#fff',
-  whiteLight: '#C4C4C4',
+  grey: '#C4C4C4',
+  greyLight: '#f0f0f0',
   blackLight: '#323232',
   black: '#000',
   blackOpacity: 'rgba(0,0,0,0.5)',
@@ -14,17 +15,18 @@ const baseColors = {
 
 export const colors:ModelOfColorTheme = {
   background: baseColors.white,
-  backgroundSecundary: baseColors.whiteLight,
+  backgroundSecundary: baseColors.grey,
   backgroundModal: baseColors.blackOpacity,
   elements: baseColors.black,
   elementsSecundary: baseColors.blackLight,
   text: baseColors.black,
   textSecundary: baseColors.blackLight,
   textElements: baseColors.white,
-  textElementsSecundary: baseColors.whiteLight,
+  textElementsSecundary: baseColors.grey,
   textHighlight: baseColors.highlight,
   warn: baseColors.yelow,
   error: baseColors.red,
-  success: baseColors.green
+  success: baseColors.green,
+  elementsThird: baseColors.greyLight
 }
 

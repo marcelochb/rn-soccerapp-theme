@@ -4,6 +4,7 @@ type ModelOfColorTheme = {
   backgroundModal: string;
   elements: string;
   elementsSecundary: string;
+  elementsThird: string;
   text: string;
   textSecundary: string;
   textElements: string;
