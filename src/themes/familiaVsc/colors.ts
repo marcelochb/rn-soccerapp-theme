@@ -3,7 +3,7 @@ import { ModelOfColorTheme } from "@src/model"
 const baseColors = {
   highlight: '#D52817',
   white: '#fff',
-  grey: '#c4c4c4',
+  grey: '#9d9d9d',
   greyLight: '#f0f0f0',
   blackLight: '#404040',
   black: '#0D0D0D',
