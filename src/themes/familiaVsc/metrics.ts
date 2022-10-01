@@ -11,7 +11,7 @@ export const metrics:ModelOfMetricsTheme = {
   largest: 32,
   inputHeight: '30%',
   inputWidth: '40%',
-  buttonHeight: 40,
+  buttonHeight: 50,
   buttonWidth: '100%',
   buttonHeightSmall: '15%',
   buttonWidthSmall: '20%',
