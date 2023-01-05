@@ -19,6 +19,7 @@ type ModelOfFontFamilyTheme = {
   regular: string;
   bold: string;
   light: string;
+  italic: string;
 }
 
 type ModelOfFontSizeTheme = {
@@ -46,7 +47,9 @@ type ModelOfMetricsTheme = {
   radiusLarge: number;
   radiusLargest: number;
   radiusRounded: number;
-  borderWidth: number;
+  borderWidthBase: number;
+  borderWidthSmall: number;
+  borderWidthLarger: number;
   screenWidth: number;
   screenHeight: number;
   avatarSize: number;
